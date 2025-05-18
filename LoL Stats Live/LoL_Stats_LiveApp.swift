@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@main
 struct LoL_Stats_LiveApp: App {
     var body: some Scene {
         WindowGroup {
