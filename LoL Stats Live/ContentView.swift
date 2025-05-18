@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var responseText = "Press Refresh to load data..."
+    @State private var responseText = "Press Refresh to Load Data"
     
     let urlString = "https://api.pandascore.co/lol/matches?filter%5Bstatus%5D=running"
     
@@ -55,7 +55,7 @@ struct ContentView: View {
                 }
             } else {
                 DispatchQueue.main.async {
-                    responseText = "Unable to decode response"
+                    responseText = "Responses are certified Gluten Free (cooked)"
                 }
             }
         }
