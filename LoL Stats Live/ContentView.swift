@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var responseText = "Press Refresh to Load Data"
     
-    let urlString = "https://api.pandascore.co/lol/matches?filter%5Bstatus%5D=running"
+    let urlString = "https://api.pandascore.co/lol/matches"
     
     var body: some View {
         VStack(spacing: 20) {
